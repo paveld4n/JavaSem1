@@ -6,4 +6,5 @@ public class Shape {
         System.out.println( "Ширина = " + wight);
         System.out.println( "Высота = " + height);
     }
+    
 }

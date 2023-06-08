@@ -7,4 +7,5 @@ public class Triangle extends Shape {
     void show_style(){
         System.out.println(style);
     }
+
 }

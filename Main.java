@@ -16,6 +16,6 @@ public class Main {
         t2.show_style();
 
     }
-        
+
     
 }
