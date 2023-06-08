@@ -1,4 +1,5 @@
 public class Triangle extends Shape {
+    
     String style;
 
     double area() {

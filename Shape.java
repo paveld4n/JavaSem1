@@ -1,4 +1,5 @@
 public class Shape {
+    
     double wight;
     double height;
 
