@@ -17,8 +17,10 @@ public class Triangle extends Shape {
     }
     public Triangle( double wight, double height, String style) {
         // задаем кастомный конструктор
-        setWight(wight);
-        setHeight(height);
-        this.style = style;
+        //setWight(wight);
+        //setHeight(height);
+        super(wight,height); // обратились к родительскому конструктору
+        // super-первым оператром в конструкторе
+        this.style = style;// поле кот нет в конструкторе
     }
 }

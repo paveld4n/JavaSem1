@@ -3,6 +3,12 @@ public class Shape {
     private double wight;
     private double height;
 
+    public Shape (double wight, double height) { 
+        // Создали родительский конструктор
+        this.height = height;
+        this.wight = wight;
+    }
+
     void show_shape() {
         System.out.println( "Ширина = " + wight);
         System.out.println( "Высота = " + height);
