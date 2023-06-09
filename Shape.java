@@ -3,6 +3,14 @@ public class Shape {
     private double wight;
     private double height;
 
+    public Shape() { // создаем конструктор по умолчанию
+        height = wight = 0.0;
+    }
+
+    public Shape(double x) { // создаем конструктор с одной переменной
+        height = wight = x;
+    }
+
     public Shape (double wight, double height) { 
         // Создали родительский конструктор
         this.height = height;

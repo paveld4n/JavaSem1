@@ -23,4 +23,13 @@ public class Triangle extends Shape {
         // super-первым оператром в конструкторе
         this.style = style;// поле кот нет в конструкторе
     }
+    public Triangle() { // конструктор по уморчанию род класса
+        super();
+        style = "none";
+    }
+    public Triangle(double x) { // конструктор с одной переменной
+        super(x);
+        style = "none";
+    }
+    
 }
